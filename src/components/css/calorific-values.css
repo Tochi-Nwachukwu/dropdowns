@@ -1,0 +1,57 @@
+.calorific-values-container {
+  background-color: #252525;
+  width: 647px;
+  height: 541px;
+  border-radius: 15px;
+  overflow-x: hidden;
+  display: flex;
+
+  position: relative;
+}
+
+.calorific-values-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.calorific-values-container::-webkit-scrollbar-track {
+  background-color: #eeeded;
+  border-radius: 100px;
+}
+
+.calorific-values-container::-webkit-scrollbar-thumb {
+  background-color: #70706f;
+  border-radius: 100px;
+}
+.calorific-values-container ul {
+  margin: 20px;
+}
+.calorific-values-container ul li {
+  margin: 10px 0px 10px 2px;
+  color: white;
+  list-style: none;
+  border-radius: 36px;
+  font-size: 14px;
+  opacity: 0.87;
+  padding: 5px;
+  width: 100%;
+  justify-content: left;
+  display: flex;
+}
+
+.calorific-values-container ul h1 {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  padding: 5px;
+  font-size: 16px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#util-spacer {
+  margin-left: 20px;
+}
+#util-width {
+  width: 60%;
+}

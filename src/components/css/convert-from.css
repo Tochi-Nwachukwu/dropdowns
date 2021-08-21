@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.convertfrom-box {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.convertfrom-label {
+  color: white;
+  margin: 10px;
+  font-size: 18px;
+}
+.convertfrom-input {
+  height: 60px;
+  width: 235px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.convert-from-input-container {
+  position: relative;
+  height: 60px;
+  width: 235px;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  height: 12px;
+  width: 15px;
+  background-image: url(./icons/down_arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(50%);
+}
+
+.dropdown-icon--rotated {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}

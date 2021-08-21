@@ -1,0 +1,23 @@
+.converter-strip {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.converter-arrows {
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.converter-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url(./icons/compare_arrows.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

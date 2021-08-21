@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown-menu-container {
+  background-color: #252525;
+  width: 500px;
+  height: 472px;
+  border-radius: 15px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.dropdown-menu-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dropdown-menu-container::-webkit-scrollbar-track {
+  background-color: #eeeded;
+  border-radius: 100px;
+}
+
+.dropdown-menu-container::-webkit-scrollbar-thumb {
+  background-color: #70706f;
+  border-radius: 100px;
+}
+.dropdown-menu-container ul {
+  margin: 10px 15px;
+}
+.dropdown-menu-container ul li {
+  color: white;
+  list-style: none;
+  font-size: 16px;
+  opacity: 0.87;
+  margin-left: 8px;
+}
+
+.dropdown-menu-container ul .list-container {
+  border-radius: 36px;
+  width: 50%;
+  padding: 5px;
+  margin: 5.5px 0px 11px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dropdown-menu-container ul h1 {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  padding-left: 8px;
+  padding-top: 8px;
+  margin: 0;
+  font-size: 16px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#l1 {
+  width: 29%;
+}
+#l2 {
+  width: 22.5%;
+}
+#l3 {
+  width: 17.7%;
+}
+#l4 {
+  width: 25%;
+}
+#l5 {
+  width: 49.4%;
+}
+#l6 {
+  width: 51%;
+}
+#l7 {
+  width: 49%;
+}
+#l8 {
+  width: 48.2%;
+}
+#l9 {
+  width: 49.7%;
+}
+#l10 {
+  width: 26.1%;
+}
