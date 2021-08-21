@@ -108,6 +108,24 @@ function ConverterStrip() {
         setToUnit('[kWh]')
 
     }
+    function MWH_to_MWH(num) {
+        var pointNum = parseFloat(num)
+        result = pointNum
+        setConverted(true)
+        setResult(result)
+        setFromUnit('[MWh]')
+        setToUnit('[kWh]')
+
+    }
+    function MWH_to_MWH(num) {
+        var pointNum = parseFloat(num)
+        result = pointNum
+        setConverted(true)
+        setResult(result)
+        setFromUnit('[MWh]')
+        setToUnit('[kWh]')
+
+    }
 
     // _____________________________________________________________
     // SECOND MENU
@@ -143,6 +161,16 @@ function ConverterStrip() {
             console.log('success')
             MWH_to_kWH(input)
         }
+        else if (convertFrom == 'megawatt-hour [MWh]' & convertTo == 'megawatt-hour [MWh]') {
+            console.log('success')
+            MWH_to_MWH(input)
+        }
+        else if (convertFrom == 'megawatt-hour [MWh]' & convertTo == 'gigawatt-hour [GWh]') {
+            console.log('success')
+            MWH_to_MWH(input)
+        }
+
+        
 
 
     }
